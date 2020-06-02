@@ -28,57 +28,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         //ทำให้อยู่ตรงกลาง
         loginButton.center.x = self.view.center.x
         signupButton.center.x = self.view.center.x
-        skipButton.center.x = self.view.center.x
-        
-//        let db = Firestore.firestore()
-//        var n = 0
-//
-//        db.collection("cafe").getDocuments() { (querySnapshot, err) in
-//            if let err = err {
-//                print("Error getting documents: \(err)")
-//            } else {
-//                for document in querySnapshot!.documents {
-//                    let cafe_id = document.get("cafe_id") as! String
-//                    db.collection("cafe").document(cafe_id).updateData([
-//                        "onlinePayment": true
-//                    ]) { err in
-//                        if let err = err {
-//                            print("Error updating document: \(err)")
-//                        } else {
-//                            print("Document successfully updated")
-//                            n+=1
-//                            print(n)
-//                        }
-//                    }
-//                }
-//            }
-//        }
-        
-        
-        //การเข้าถึงโลเคชั่น
-//        let status = CLLocationManager.authorizationStatus()
-//
-//        switch status {
-//
-//        case .notDetermined:
-//                locationManager.requestWhenInUseAuthorization()
-//                return
-//
-//        case .denied, .restricted:
-//            let alert = UIAlertController(title: "Location Services disabled", message: "Please enable Location Services in Settings", preferredStyle: .alert)
-//            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-//            alert.addAction(okAction)
-//
-//            present(alert, animated: true, completion: nil)
-//            return
-//
-//        case .authorizedAlways, .authorizedWhenInUse:
-//            break
-//
-//        }
-//        locationManager.delegate = self
-//        locationManager.startUpdatingLocation()
-        
+        skipButton.center.x = self.view.center.x   
     }
     
     override func viewDidAppear(_ animated: Bool) {
