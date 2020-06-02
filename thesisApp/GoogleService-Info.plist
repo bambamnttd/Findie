@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>248284550678-8g81558j9i9sej55gu6kea9oenvi5jkf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.248284550678-8g81558j9i9sej55gu6kea9oenvi5jkf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMkRpIxJtgf2RIJWVSnjioTZ9SmOr5gdc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>248284550678</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bambamnttd.thesisApp</string>
+	<key>PROJECT_ID</key>
+	<string>thesis-c22f2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thesis-c22f2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:248284550678:ios:53cc04c6d615007a968737</string>
+	<key>DATABASE_URL</key>
+	<string>https://thesis-c22f2.firebaseio.com</string>
+</dict>
+</plist>
